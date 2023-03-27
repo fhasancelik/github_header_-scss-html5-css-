@@ -1,0 +1,51 @@
+.about_aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    width: 20%;
+    &-img{
+        width: 100%;
+        
+        background-color:white;
+        box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.75);
+        padding-bottom: .2rem;
+        
+        img{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+       i{
+        margin-left: 1rem;
+        margin-right: 1rem;
+       }
+input{
+    border: none;
+  width: 4rem;
+    
+}
+        
+    }
+    &-username{
+margin-top: 2rem;
+margin-bottom: 2rem;
+    }
+    &_button{
+        width: 100%;
+        margin-bottom: 1rem;
+        button{
+            width: 100%;
+            height: 30px;
+            border: 1px solid rgba(27,31,35,.2);
+            background-color: #eff3f6;
+            background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+        border-radius: 3px;
+        }
+      
+    }
+
+}
